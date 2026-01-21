@@ -99,18 +99,6 @@ serviceURL = 'https://metadata.api.oclc.org/worldcat'
 #scope = ['WorldCatMetadataAPI:manage_bibs', 'WorldCatMetadataAPI:view_brief_bib']
 scope = ['WorldCatMetadataAPI:manage_institution_lhrs']
 
-'''
-#<======== AUTHORIZATION & CLIENT TS268==========>
-#institution = "TS268"
-#auth = HTTPBasicAuth('2v4FUhRjcmfCVFy8IQMq3HqFuGAzHJphOWZQOqnbM3dAaZxPJri5px1hokMERzM8nrO9TKi0ev2tBtr1', 'JYBPF982myHASX7MuyWwHw==')
-#client = BackendApplicationClient(client_id='2v4FUhRjcmfCVFy8IQMq3HqFuGAzHJphOWZQOqnbM3dAaZxPJri5px1hokMERzM8nrO9TKi0ev2tBtr1', scope=scope)
-
-#<======== AUTHORIZATION & CLIENT AAE==========>
-
-institution = "AAE"
-auth = HTTPBasicAuth('qL00FpO5FPB2nAEcZMK8W05lOJrGrwHndpYVXeNe3UoabhRK389YWVcrBU8a1WH01UjTB7rBiZU1Hyjo', 'mMz5+0W0Q2Q205WIz71d8wfl1LM3NqzF')
-client = BackendApplicationClient(client_id='qL00FpO5FPB2nAEcZMK8W05lOJrGrwHndpYVXeNe3UoabhRK389YWVcrBU8a1WH01UjTB7rBiZU1Hyjo', scope=scope)
-'''
 
 def load_oauth_credentials(inst_symbol: str):
     prefix = inst_symbol.upper()
